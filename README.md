@@ -1,9 +1,5 @@
 <h1 align="center">Social Media Hashtag Generator 🏷️</h1>
 
-![Demo App](/screenshots/hashtag-generator-demo.png)
-
----
-
 ## **About the Project**  
 The **Social Media Hashtag Generator** is a web application designed to help users create relevant and engaging hashtags for their social media posts. This project demonstrates expertise in full-stack development, showcasing clean, modern UI design and efficient backend architecture.
 
@@ -17,7 +13,11 @@ The **Social Media Hashtag Generator** is a web application designed to help use
 ### Generated Hashtags
 ![Generated Hashtags](/frontend/public/generated-hashtags.png)
 
----
+--- 
+### ## 🎉 Live Demo
+
+Check out the live applications:
+- E-commerce Store: https://social-media-hashtag-generator.onrender.com
 
 ## **Features**  
 
