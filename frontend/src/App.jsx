@@ -8,7 +8,7 @@ const App = () => {
 
   const handleGenerate = async (text) => {
     try {
-      const response = await fetch('http://localhost:5000/api/hashtags/generate', {
+      const response = await fetch('https://social-media-hashtag-generator.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
