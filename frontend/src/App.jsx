@@ -8,11 +8,12 @@ const App = () => {
 
   const handleGenerate = async (text) => {
     try {
-      const response = await fetch('https://social-media-hashtag-generator.onrender.com', {
+      const response = await fetch('https://social-media-hashtag-generator.onrender.com/api/hashtags/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
       });
+      
 
       if (!response.ok) {
         throw new Error('Failed to generate hashtags');
